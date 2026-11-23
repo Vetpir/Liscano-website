@@ -1,3 +1,50 @@
 body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
     background-color: #F9F7F2;
+    background: url(images/background1.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.headnav {
+    background-color: #8B5E3C;
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: white;
+}
+
+header {
+    background-color: #F1E7D9;
+    color: #8B5E3C;
+}
+
+nav h1 {
+    position: relative;
+    left: 100px;
+    color: black;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2px 5%;
+}
+
+.nav-links {
+    display: flex;
+    gap: 50px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: 600;
+}
+
+.main-content {
+    background: url(images/background1.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
 }
