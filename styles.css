@@ -24,6 +24,9 @@ header {
 
     padding: 12px 5%;
     gap: 20px;
+
+    position: sticky;
+    top: 0;
 }
 
 
@@ -188,4 +191,45 @@ nav .active {
         font-size: 14px;
     }
 
+}
+
+/* Footer */
+.footer {
+    margin: 10px;
+    padding: 25px;
+    border: 2px solid;
+    border-radius: 50px;
+    color:#D7C4A7;
+}
+
+/* bellow Hero */
+.hero-down {
+    text-decoration: none;
+    background-color: #F1E7D9;
+    color: #3E2F22;
+
+    padding: 25px 25px;
+    border-radius: 0px;
+    white-space: nowrap;
+
+    justify-content: center;
+    text-align: center;
+    display: flex;
+}
+
+/* Hero H3 */
+.hero-down h3{
+    color: #3E2F22;
+    margin-bottom: 8px;
+}
+
+/* hero div */
+.hero-down div{
+    margin: 0 50px;
+    border-right: 1px solid #8B5E3C;
+    padding: 25px;
+    padding-right: 100px;
+}
+.hero-down div:last-child {
+    border: none;
 }
